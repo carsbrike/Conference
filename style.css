@@ -1,0 +1,577 @@
+body{
+    background-color: #293f50;
+    margin: 0;
+    padding: 0;
+    font: 300;
+    font-family: 'Kanit', sans-serif;}
+html{
+    margin: 0;
+    padding: 0;
+}
+/* sekcja 1 */
+header{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+.logo{
+    color: white;
+    font-size: 48px;
+    font-weight: 100;
+    width: 300px;
+    float: left;
+    margin-top: 0;
+    line-height: 44px;
+    letter-spacing: .5px;
+    border-top: 4px solid #648880;
+    text-transform: uppercase;
+    padding: 40px 0 22px 0;
+    display: block;
+
+}
+.logo:hover{
+    color:  #648880;
+}
+.slogan{
+    color: #648880;
+    padding: 60px 0 22px 0;
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+.nav-top{
+   text-align: right;
+   letter-spacing: 2px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+   max-height: 30px;
+}
+.nav-top ul, .nav-bot ul{
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+}
+.nav-top ul li, .nav-bot ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.nav-top a:hover{
+    color:  #648880;
+}
+/* sekcja 2 */
+.s-first{
+    clear: both;
+    color: white;
+    line-height: 44px;
+    padding: 22px 80px 60px 80px;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #648880;
+    font-weight: 500;
+    font-size: 37px;
+    margin: 0;
+}
+.p-first{
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-now{
+    width: 190px;
+    height: 66px;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+    background-color: #293f50;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+.register-now:hover{
+    border: 1x solid white;
+    border-radius: 5px 5px;
+    background-color: white;
+    color: #293f50;
+}
+.register-now:hover a{
+    color: #293f50;
+}
+/* Sekcja 3 */
+.s-second{
+    background-color: white;
+    padding: 30px 0 44px 0 ;
+    min-width: 1110px;
+}
+.grid{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    width: 100%;
+    display: grid; 
+    width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "window0 window1 window2"
+}
+.window0{
+    grid-area: window0;
+}
+.window1{
+    grid-area: window1;
+}
+.window2{
+    grid-area: window2;
+}
+.grid-1{
+    color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+.grid-1 h5{
+    font-size: 1.125em;
+    text-transform: uppercase;
+}
+.grid-1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.grid-1 h4{
+    font-size: 1.5625em;
+    color: grey;
+}
+.grid-1 p{
+    color: grey;
+    font-weight: 800;
+    font-size: 15px;
+}
+/* Sekcja 4 */
+footer{
+    padding: 44px 30px 44px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
+small{
+    color: #648880;
+    float: left;
+    font-weight: bold;
+}
+.nav-bot{
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.nav-bot a:hover{
+    color:  #648880;
+}
+/*              REGISTER            */
+/*              REGISTER            */
+/*              REGISTER            */
+/*              REGISTER            */
+/*              REGISTER    polnoc 0;30        */
+.backlight{
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 40px;
+    min-width: 1020px;
+}
+.container-r{
+    width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+.backlight-h{
+    clear: both;
+    margin: auto;
+    font-weight: bold;
+    font-size: 40px;
+}
+.container-r p{
+    font-size: 20px;
+    font-weight: 700;
+    color: grey;
+}
+.register-form{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    min-width: 996px;
+}
+.reg-background{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 10px; 
+    grid-template-areas: 
+    "reg-info reg-group"; 
+
+}
+.reg-info{
+    color: grey;
+    grid-area: reg-info;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+.reg-info h2{
+    font-weight: bolder;
+}
+.reg-info h5{
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 900;
+}
+.reg-info p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.reg-info h4{
+    color: #648880;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.reg-info ul{
+    text-decoration: grey;
+    padding-left: 70px;
+}
+.reg-info ul li{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*       right site   */
+.reg-group{
+    margin-top: 0px;
+    grid-area: reg-group;
+}
+.group-box{
+    padding: 5px 15px 30px 15px;
+    color: #648880;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.name{
+    height: 22px;
+    border-radius: 5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+.email{
+    height: 22px;
+    border-radius: 5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+.number{
+    height: 22px;
+    width: 50px;
+    border-radius: 5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+.comment-a{
+    border-radius: 5px 5px;
+    max-width: 250px;
+    border: 1px solid grey;
+}
+button{
+    width: 140px;
+    height: 35px;
+    background-color:  #648880;
+    color:  white;
+    border-radius: 5px 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 80px;
+    margin-left: 16px;
+}
+button:hover{
+    background-color:  #779e96;
+}
+/*           Venue         */
+/*           Venue         */
+/*           Venue         */
+/*           Venue         */
+.maps{
+    background-color: white;
+
+}
+.maps-c{
+    width: 980px;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "text mapa"
+     "text2 mapa2"; 
+    padding: 0 20px 0 20px;
+    background-color: white;
+}
+.map1{
+    grid-area: text;
+}
+.map1 h2{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.map1 h4{
+    color: #648880;
+    margin-bottom: 0;
+}
+.map1 h3{
+    color: rgb(165, 163, 163);
+    font-size: 17px;
+    margin-top: -5px;
+}
+.mapa{
+    grid-area: mapa;
+    float: right;
+    margin: 50px 10px 50px 110px;
+}
+.map2{
+    grid-area: text2;
+}
+.map2 h2{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.map2 h4{
+    color: #648880;
+    margin-bottom: 0;
+}
+.map2 h3{
+    color: rgb(165, 163, 163);
+    font-size: 17px;
+    margin-top: -5px;
+}
+.mapa2{
+    grid-area: mapa2;
+    float: right;
+    margin: 10px 10px 50px 110px;
+}
+/*           Schedule         */
+/*           Schedule         */
+/*           Schedule         */
+/*           Schedule         */
+.information{
+    margin: 0;
+    background-color: white;
+}
+.corner{
+    background-color: white;
+    width: 980px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    max-height: 2430px;
+    display: grid; 
+    grid-template-columns: 0.4fr 1.6fr; 
+    grid-template-rows: .5fr 1fr 1.2fr; 
+    gap: 0px 40px; 
+    grid-template-areas: 
+    "cl1 cr1"
+    "cl2 cr2"
+    "cl3 cr3"; 
+    text-align: left;
+}
+.cr1{
+    grid-area: cr1;
+    height: 400px;
+}
+.cl1{
+    grid-area: cl1;
+}
+.cr2{
+    grid-area: cr2;
+    height: 900px;
+}
+.cl2{
+    grid-area: cl2;
+}
+.cr3{
+    grid-area: cr3;
+}
+.cl3{
+    grid-area: cl3;
+}
+.corner h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.corner a{
+    text-decoration: none;
+    color: #648880;
+}
+.corner h4{
+    font-size: 20px;
+    margin: 0;
+}
+.corner p{
+    margin: 0;
+    font-weight: 600;
+    color: rgb(175, 175, 175);
+}
+.corner span p{
+    color: grey;
+    font-weight: 600;
+    width: 390px;
+}
+.left-corner{
+    margin-top: 60px;
+    width: 140px;
+    text-align: right;
+}
+.left-corner p{
+    padding: 40px 0 20px 0;
+}
+.right-corner{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    line-height: 20px;
+}
+.right-corner span{
+    display: flex;
+    flex-direction: row;
+}
+.right-corner p, span{
+    padding: 20px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.right-corner span p{
+    padding: 0 0 20px 0;
+    border: none;
+}
+.corner span a{
+    float: left;
+}
+.right-span{
+    display: block;
+    float: right;
+}
+.left-span{
+    display: block;
+    float: left;
+}
+.cr3{
+    height: 950px;
+}
+.cl3{
+    height: 900px;
+}
+/*         SPEAKERS         */
+/*         SPEAKERS         */
+/*         SPEAKERS         */
+/*         SPEAKERS         */
+/*         SPEAKERS         */
+.speakers-in{
+    background-color: white;
+}
+.grid-speakers{
+    background-color: white;
+    width: 1019px;
+    margin: 0 auto;
+    padding: 0 20 0 20;
+}
+.person{
+    display: grid; 
+    grid-template-columns: 1.4fr 0.6fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 30px; 
+     grid-template-areas: 
+    "col-1 col-2"; 
+    padding-top: 60px;
+}
+.col-1 a{
+    color:  #648880;
+}
+.col-1{
+    padding-left: 20px;
+}
+.col-1 h2{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.col-1 h5{
+    font-size: 15px;
+    color: rgb(182, 182, 182);
+    margin-top: 0;
+}
+.col-1 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+.col-2{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px 5px;
+    height: 140px;
+    margin-top: 88px;
+    width: 230px;
+}
+.col-2 a{
+    color:  #648880;
+    font-size: 17px;
+    font-weight: bold;
+}
+.col-2 ul{
+    list-style-type: none;
+    padding: 0;
+}
+.col-2 img{
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 2px 0;
+}
+#arman-ghosh .col-2{
+    height: 110px;
+}
+#howe-shay{
+    padding-bottom: 0px;
+}
+.person:last-child{
+    padding-bottom: 60px;
+}
